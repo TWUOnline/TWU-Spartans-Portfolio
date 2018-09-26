@@ -1,0 +1,48 @@
+/*
+Theme Name: 	TWU Spartans Portfolio
+Theme URI: 		https://github.com/TWUOnline/TWU-Spartans-Portfolio
+Description: 	A modern portfolio theme focused on showcasing your work in a clean and minimal way (child of Fukasawa) recommended for Trinity Western University students to create their learning portfolio. 
+Version: 		0.1
+Template:       fukasawa
+Author: 		CogDog
+Author URI: 	https://cog.dog/
+License: GNU General Public License v2.0 & Apache License 2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+
+
+@font-face {
+	font-family: 'Genericons';
+		src: url('genericons/font/Genericons.woff') format('woff'),
+		url('genericons/font/Genericons.ttf') format('truetype'),
+		url('genericons/font/Genericons.svg#genericonsregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.post-meta-bottom .post-tags a { margin-right: 0; }
+.post-meta-bottom .post-tags a:before { content: ""; }
+
+
+
+.posts .twu-portfolio .featured-media:hover img  { 
+	transform: scale(1.1); 
+	-moz-transform: scale(1.1); 
+	-webkit-transform: scale(1.1); 
+}
+
+
+.twu-portfolio.single {
+    background-color: #fff;
+}
+
+.taxonomy-description {
+    margin-top: 1em;
+    font-size: 0.9em;
+    font-weight: 400;
+    font-style: italic;
+    color: #999;
+}
+
+
